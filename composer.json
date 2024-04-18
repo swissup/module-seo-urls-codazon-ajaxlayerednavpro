@@ -1,0 +1,19 @@
+{
+    "name": "swissup/module-seo-urls-codazon-ajaxlayerednavpro",
+    "description": "Make SEO Urls from Swissup work with Codazon_AjaxLayeredNavPro",
+    "keywords": [
+        "codazon ajaxlayerednavpro"
+    ],
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "OSL-3.0",
+    "require": {
+        "swissup/module-seo-urls": "^1.5.49"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Swissup\\SeoUrlsCodazonAjaxLayeredNavPro\\": ""
+        }
+    }
+}

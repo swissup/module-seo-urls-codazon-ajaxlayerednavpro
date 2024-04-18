@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Swissup\SeoUrls\Model\Request">
+        <plugin name="swissup_seo_urls_ajax_layered_nav_pro"
+            type="Swissup\SeoUrlsCodazonAjaxLayeredNavPro\Plugin\SeoUrls\Model\Request"
+            sortOrder="10"
+            disabled="false"
+        />
+    </type>
+</config>
